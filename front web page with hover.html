@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <style type="text/css">
+
+        *{margin:0; padding:0;}
+        header{ background-image:linear-gradient(rgba(73, 68, 68, 0.2),rgba(202, 199, 199, 0.2)), url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Cool-wooden-wall-cool-twitter-backgrounds.jpg");
+                background-position: center; background-size: cover; height:100vh;}
+        ul{float:right;
+            list-style-type:none; margin-top: 25px; margin-right: 25px;}
+        ul li{display:inline; color: white; border:1px solid transparent; padding:5px 20px;
+                transition: 0.6s ease;}
+        ul li:hover{background-color:white; color:black;}  
+        ul li.active{background-color:white; color:black;}
+        .logo{ width:150px; height:55px; border:1px solid grey; border-radius: 30px; position: absolute; top:40px; left:20px; color:rgb(16, 235, 243); background-color: rgb(41, 43, 44);}   
+        .design{text-align: center; margin-top: 7%;} 
+        .logo:hover{background-color: #fff;color:black}  
+        .title1{position: absolute; top:40%; left:50%; transform: translate(-45%,-45%); color:white;}    
+        .title1 h1{font-size: 40px; text-shadow: -30px 12px 4px black;}  
+        .title2{position:absolute; top:50%; left:50%; transform: translate(-50%,-50%); color:white; font-size: 40px; text-shadow: -30px 12px 4px black;} 
+        .button{position: absolute; top:55%; left:40%;}
+        .login{width:80px; height:30px;  border:1px solid white; border-radius: 15px; color:white; background-color: black;}
+        .sign{width:80px; height:30px; position:absolute; left:100px; border:1px solid white; border-radius: 15px; color: #fff; background-color: black;}
+        .login:hover{background-color: white; color: black;}
+        .sign:hover{background-color: white; color: black;}
+        .search{position: absolute; top:15px; left:25%;}
+        .searchstyle{width:180px; height:25px; border:1px solid white; border-radius: 15px; background-color: rgb(194, 194, 194);}
+        .searchstyle:hover{background-color: white;}
+
+
+
+    </style>   
+
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo"><h4 class="design">SUDHIR DESIGN.COM</h4></div>
+            <ul>
+                <li class="active">home</li>
+                <li>services</li>
+                <li>galiery</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="title2"><h4>We're here for you</h4></div>
+        <div class="title1"><h1>WELCOME TO WEB CREATER</h1></div>
+        <div class="button">
+            <button class="login">Login</button>
+            <button class="sign">sign up </button>
+        </div>
+        <div class="search"><input type="text" placeholder="Search here..." class="searchstyle"></div>
+    </header>    
+</body>
+</html>
